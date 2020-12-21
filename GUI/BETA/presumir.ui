@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #3a3e47</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 10pt&quot;Century Gothic&quot;;
+	color: #f2b824;
+	background-color: #1d1c21;
+	border: none;
+}
+
+QPushButton:hover{
+	color: #f2c44e;
+	background-color: #3a3c42;
+}
+
+QPushButton:pressed {
+	color: #eb7b13;
+}</string>
+   </property>
+   <property name="text">
+    <string>ВВОДИТЬ КАРТУ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 10pt&quot;Century Gothic&quot;;
+	color: #f2b824;
+	background-color: #1d1c21;
+	border: none;
+}
+
+QPushButton:hover{
+	color: #f2c44e;
+	background-color: #3a3c42;
+}
+
+QPushButton:pressed {
+	color: #eb7b13;
+}</string>
+   </property>
+   <property name="text">
+    <string>ВВОДИТЬ ЛЕГЕНДУ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>210</y>
+     <width>291</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 18pt&quot;Century Gothic&quot;;
+	color: #f2b824;
+	background-color: #1d1c21;
+	border: none;
+}
+
+QPushButton:hover{
+	color: #f2c44e;
+	background-color: #3a3c42;
+}
+
+QPushButton:pressed {
+	color: #eb7b13;
+}</string>
+   </property>
+   <property name="text">
+    <string>АНАЛИЗИРОВАТЬ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>40</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #ccc;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>130</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #ccc;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
